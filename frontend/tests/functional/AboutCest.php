@@ -1,0 +1,17 @@
+<?php
+
+namespace frontend\tests\functional;
+
+use frontend\tests\FunctionalTester;
+
+class AboutCest
+{
+    /**
+     * @param FunctionalTester $I
+     */
+    public function checkAbout(FunctionalTester $I)
+    {
+        $I->amOnRoute('/');
+        $I->see('About', 'h1');
+    }
+}

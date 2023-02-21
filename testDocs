@@ -1,0 +1,7 @@
+- initial folder: codecept boostrap
+- generate file: codecept build
+
+Acceptance test:
+- download webdriver: composer require codeception/module-webdriver --dev
+- run webdriver: chromedriver --url-base=/wd/hub
+- launce test with browser: https://codeception.com/docs/modules/WebDriver
