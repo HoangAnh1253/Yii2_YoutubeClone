@@ -2,7 +2,7 @@
 
 ?>
 
-<aside>
+<aside class="shadow">
     <?php
         echo \yii\bootstrap5\Nav::widget([
             'options' => [
